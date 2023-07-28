@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.bdy{
+background-image: url('https://img.freepik.com/free-photo/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product_1258-67806.jpg');
+background-size: cover;
+width: 100vw;
+height: 100vh;
+background-position: center;
+background-attachment: fixed;
+
+
+
+}
+
+.logo{
+    color: white;
+    font-size: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: plum;
+    transition: 0.4s;
+}
+
+.spa1{
+   color: plum;
+}
+.spa{
+    background-color:plum;
+    color: black;
+    /* text-decoration: none; */
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px ;
+    padding: 6px 26px;
+    transition: transform .4s;
+}
+
+
+.spa a{
+    color: black;
+    text-decoration: none;
+}
+.spa:hover{
+    transform: scale(1.1);
+}
+
+.texa{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 30%;
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+}
+h3{
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 7px;
+    
+}
+
+.sbox form{
+    position: relative;
+
+}
+.sbox form input:first-child{
+    position: relative;
+    display: inline-block;
+    width: 430px;
+    height: 52px;
+    border-radius: 30px;
+    position: relative;
+    border:3px solid plum;
+    padding-left: 9px;
+    font-size: 15px;
+
+
+}
+
+.sbox form input:last-child{
+    background-color: plum;
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    position: absolute;
+    top:7px;
+    right: 60px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px #000,0px 0px 0px #868686;
+    
+       
+}
+
+.sbox form input:last-child:hover{
+    transform: scale(0.9);
+    
+}
+
+body{
+    position: absolute;
+}
+.page{
+    
+    background-color: azure;
+    height: 100vh;
+    position:relative;
+
+}
+.center{
+    background-color: purple;
+    min-width: 100vw;
+    min-height: 100vh;
+
+}
+textarea{
+    background-color: plum;
+}
+.compi{
+    color: white;
+    margin-left: 14%;
+}
+
+
+
+
+
+
+
+
+

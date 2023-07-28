@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Navigation</title>
+    <link rel="stylesheet" href="gat.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <script src="index.js"></script>
+    
+                <div class="bdy">
+                
+                    <nav>
+                        <h1 class="logo">GAT<i class="bi bi-signpost-split-fill"></i><span class="spa1">Compiler</span></h1>
+                        <ul class="links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Internals</a></li>
+                            <li><a href="#">Quiz</a></li>
+                            <li><a href="#">Student Profile</a></li>
+                        </ul>
+                        <span class="spa">
+                            <a href="Login Interface/log.html" class="btn">Login</a> ||
+                            <a class="butt" href="Register Interface/reg.html">Register</a>
+                        </span>
+                    </nav>
+                    <div class="texa">
+                    
+                            <h1>Learn To Code</h1>
+                            <h3>with the latest coding site</h3>
+                        
+                        <div class="sbox">
+                        <form>
+                                <input class="ip" type="search" list="lang" placeholder="Search for required languages">
+                                <datalist id="lang">
+                                    <option>Python</option>
+                                    <option>C++</option>
+                                    <option>C</option>
+                                    <option>Java</option>
+                                </datalist>
+                                <input class="ip1" type="submit" name="submit" value="Get Started">
+
+                        </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="center">
+                    <h1 class="compi">Compiler</h1>
+                    <form action="compilecode" id="myform" name="myform" method="post">
+                        <h3>Code here</h3>
+                        <textarea name="code" id="code" cols="100" rows="13"></textarea>
+                        <br>
+                        <h3>Input</h3>
+                        <textarea name="input" id="input" cols="100" rows="10"></textarea>
+                        <br>
+                        Language : <select name="lang" id="">
+                            <option value="C">C</option>
+                            <option value="Java">Java</option>
+                            <option value="Python">Python</option>
+                        </select>
+                        Compile with Input :
+                        <input type="radio" name="inputRadio" id="inputRadio" value="true">yes
+                        <input type="radio" name="inputRadio" id="inputRadio" value="false">no
+                        <br>
+                        <input type="submit" value="submit" name="submit">
+                    </form>
+                </div>
+</body>
+</html>
